@@ -1,11 +1,13 @@
+package Code;
+
 import java.util.Arrays;
 
 public class Task1 {
 
-    static boolean swap(int i, int j, int[] anArray) {
+    public static boolean swap(int i, int j, int[] anArray) {
         int len = anArray.length;
         //Проверка на переполнение
-        if ((i > len - 1) || (j > len - 1)) {
+        if ((i > len - 1) || (j > len - 1) || (len == 0)) {
             return false;
         }
         int buf;

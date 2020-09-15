@@ -1,3 +1,5 @@
+package Code;
+
 public class Task2 {
 
     public static int min(int a, int b, int c) {

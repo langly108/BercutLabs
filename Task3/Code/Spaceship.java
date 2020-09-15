@@ -1,3 +1,5 @@
+package Code;
+
 public class Spaceship {
     private int speed;
 

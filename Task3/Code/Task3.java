@@ -1,3 +1,7 @@
+package Code;
+
+import Code.Spaceship;
+
 import java.util.Arrays;
 
 public class Task3 {
