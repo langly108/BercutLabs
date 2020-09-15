@@ -1,3 +1,5 @@
+package Tests;
+
 import Code.Spaceship;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
