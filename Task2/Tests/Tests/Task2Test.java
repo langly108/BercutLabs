@@ -37,4 +37,14 @@ class Task2Test {
         int res = Task2.min(a, b, c);
         Assert.assertEquals(c, res);
     }
+
+    @Test
+    void min4rd() {
+        int a, b, c;
+        a = 20;
+        b = 15;
+        c = 10;
+        int res = Task2.min(a, b, c);
+        Assert.assertEquals(c, res);
+    }
 }

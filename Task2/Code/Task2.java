@@ -3,16 +3,18 @@ package Code;
 public class Task2 {
 
     public static int min(int a, int b, int c) {
-        int buf;
         if (a < b) {
-            buf = a;
+            if (a < c) {
+                return a;
+            } else {
+                return c;
+            }
         } else {
-            buf = b;
-        }
-        if (buf < c) {
-            return buf;
-        } else {
-            return c;
+            if (b < c) {
+                return b;
+            } else {
+                return c;
+            }
         }
     }
 
