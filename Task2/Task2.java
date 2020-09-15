@@ -21,5 +21,6 @@ public class Task2 {
         int c = Integer.parseInt(args[2]);
 
         System.out.println(min(a, b, c));
+
     }
 }
