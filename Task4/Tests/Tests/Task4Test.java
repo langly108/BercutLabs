@@ -77,4 +77,19 @@ class Task4Test {
         Assert.assertEquals(hashCode2, objArr[3].hashCode());
         Assert.assertEquals(hashCode1, objArr[1].hashCode());
     }
+
+    @Test
+    void swapRandomObjects() {
+        int i = 1;
+        int j = 3;
+        Object[] objArr = new Object[]{new TestObject(50), "tt567", false, -20, 'b', 12345L};
+        int hashCode1 = objArr[0].hashCode();
+        boolean t = Task4.swap(i, j, objArr);
+
+        //сравнения полей
+        Assert.assertEquals(-20, objArr[1]);
+        Assert.assertEquals("tt567", objArr[3]);
+
+    }
+
 }
