@@ -2,6 +2,8 @@ package com.bercut.labs.Task5;
 
 public class Rectangle implements Shape {
 
+    public final static int type = Shape.RECTANGLE;
+
     double height;
     double width;
 
@@ -29,5 +31,10 @@ public class Rectangle implements Shape {
     @Override
     public double getPerimeter() {
         return (width + height) * 2;
+    }
+
+    @Override
+    public int getType() {
+        return type;
     }
 }

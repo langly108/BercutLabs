@@ -2,6 +2,9 @@ package com.bercut.labs.Task5;
 
 public class Triangle implements Shape {
 
+
+    public final static int type = Shape.TRIANGLE;
+
     double line1;
     double line2;
     double line3;
@@ -40,5 +43,10 @@ public class Triangle implements Shape {
     @Override
     public double getPerimeter() {
         return (line1 + line2 + line3);
+    }
+
+    @Override
+    public int getType() {
+        return type;
     }
 }
