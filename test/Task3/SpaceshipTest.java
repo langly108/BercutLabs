@@ -1,4 +1,4 @@
-package Tests;
+package Task3;
 
 import com.bercut.labs.Task3.Code.Spaceship;
 import org.junit.Assert;
