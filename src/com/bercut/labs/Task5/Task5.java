@@ -65,14 +65,13 @@ public class Task5 {
                         line2 = r.nextInt(rndCount) + 1;
                         line3 = r.nextInt(rndCount) + 1;
                     } while ((line1 > line2 + line3) || (line2 > line3 + line1) || (line3 > line1 + line2));
-                    //
+
                     Triangle triangle = new Triangle(line1, line2, line3);
                     objList.add(triangle);
                     break;
                 case (RECTANGLE):
                     double height = r.nextInt(rndCount) + 1;
                     double width = r.nextInt(rndCount) + 1;
-                    //
                     Rectangle rectangle = new Rectangle(height, width);
                     objList.add(rectangle);
                     break;
