@@ -1,4 +1,4 @@
-package Task2;
+package com.bercut.labs.Task2;
 
 import com.bercut.labs.Task2.*;
 import org.junit.Assert;
