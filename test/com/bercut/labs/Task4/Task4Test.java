@@ -1,7 +1,7 @@
 package com.bercut.labs.Task4;
 
 import com.bercut.labs.Task4.*;
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 class TestObject {
@@ -25,7 +25,7 @@ class Task4Test {
         int j = 4;
         Integer[] strArr = new Integer[]{1, 5, 6};
         boolean t = Task4.swap(i, j, strArr);
-        Assert.assertFalse(t);
+        Assertions.assertFalse(t);
     }
 
     @Test
@@ -35,7 +35,7 @@ class Task4Test {
         String[] strArr = new String[]{"fgjhsdf", "gfeg2", "tt432", "qwerty", "iiioooo"};
         String[] expectedArr = new String[]{"fgjhsdf", "gfeg2", "iiioooo", "qwerty", "tt432"};
         boolean t = Task4.swap(i, j, strArr);
-        Assert.assertArrayEquals(expectedArr, strArr);
+        Assertions.assertArrayEquals(expectedArr, strArr);
     }
 
     @Test
@@ -45,7 +45,7 @@ class Task4Test {
         Integer[] intArr = new Integer[]{1, 2, 3, 4, 5, 6, 7};
         Integer[] expectedArr = new Integer[]{1, 2, 5, 4, 3, 6, 7};
         boolean t = Task4.swap(i, j, intArr);
-        Assert.assertArrayEquals(expectedArr, intArr);
+        Assertions.assertArrayEquals(expectedArr, intArr);
     }
 
     @Test
@@ -55,7 +55,7 @@ class Task4Test {
         Character[] charArr = new Character[]{'a', 'b', 'c', 'd', 'e', 'f', 'g'};
         Character[] expectedArr = new Character[]{'a', 'b', 'e', 'd', 'c', 'f', 'g'};
         boolean t = Task4.swap(i, j, charArr);
-        Assert.assertArrayEquals(expectedArr, charArr);
+        Assertions.assertArrayEquals(expectedArr, charArr);
     }
 
     @Test
@@ -68,12 +68,12 @@ class Task4Test {
         boolean t = Task4.swap(i, j, objArr);
 
         //сравнения полей
-        Assert.assertEquals(60, objArr[3].getField());
-        Assert.assertEquals(100, objArr[1].getField());
+        Assertions.assertEquals(60, objArr[3].getField());
+        Assertions.assertEquals(100, objArr[1].getField());
 
         //сравнения объектов (непонятно как напрямую сравнивать, поэтому так)
-        Assert.assertEquals(hashCode2, objArr[3].hashCode());
-        Assert.assertEquals(hashCode1, objArr[1].hashCode());
+        Assertions.assertEquals(hashCode2, objArr[3].hashCode());
+        Assertions.assertEquals(hashCode1, objArr[1].hashCode());
     }
 
     @Test
@@ -85,8 +85,8 @@ class Task4Test {
         boolean t = Task4.swap(i, j, objArr);
 
         //сравнения полей
-        Assert.assertEquals(-20, objArr[1]);
-        Assert.assertEquals("tt567", objArr[3]);
+        Assertions.assertEquals(-20, objArr[1]);
+        Assertions.assertEquals("tt567", objArr[3]);
 
     }
 

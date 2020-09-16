@@ -1,7 +1,7 @@
 package com.bercut.labs.Task2;
 
 import com.bercut.labs.Task2.*;
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 class Task2Test {
@@ -13,7 +13,7 @@ class Task2Test {
         b = 15;
         c = 20;
         int res = Task2.min(a, b, c);
-        Assert.assertEquals(a, res);
+        Assertions.assertEquals(a, res);
     }
 
     @Test
@@ -23,7 +23,7 @@ class Task2Test {
         b = 10;
         c = 20;
         int res = Task2.min(a, b, c);
-        Assert.assertEquals(b, res);
+        Assertions.assertEquals(b, res);
     }
 
     @Test
@@ -33,7 +33,7 @@ class Task2Test {
         b = 20;
         c = 10;
         int res = Task2.min(a, b, c);
-        Assert.assertEquals(c, res);
+        Assertions.assertEquals(c, res);
     }
 
     @Test
@@ -43,6 +43,6 @@ class Task2Test {
         b = 15;
         c = 10;
         int res = Task2.min(a, b, c);
-        Assert.assertEquals(c, res);
+        Assertions.assertEquals(c, res);
     }
 }

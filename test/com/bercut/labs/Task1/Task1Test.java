@@ -1,7 +1,7 @@
 package com.bercut.labs.Task1;
 
 import com.bercut.labs.Task1.*;
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 class Task1Test {
@@ -12,7 +12,7 @@ class Task1Test {
         int var1 = 12;
         int var2 = 13;
         boolean t = Task1.swap(var1, var2, arr);
-        Assert.assertFalse(t);
+        Assertions.assertFalse(t);
     }
 
     @Test
@@ -21,7 +21,7 @@ class Task1Test {
         int var1 = 12;
         int var2 = 3;
         boolean t = Task1.swap(var1, var2, arr);
-        Assert.assertFalse(t);
+        Assertions.assertFalse(t);
     }
 
     @Test
@@ -30,7 +30,7 @@ class Task1Test {
         int var1 = 1;
         int var2 = 2;
         boolean t = Task1.swap(var1, var2, arr);
-        Assert.assertFalse(t);
+        Assertions.assertFalse(t);
     }
 
     @Test
@@ -39,7 +39,7 @@ class Task1Test {
         int var1 = 3;
         int var2 = 12;
         boolean t = Task1.swap(var1, var2, arr);
-        Assert.assertFalse(t);
+        Assertions.assertFalse(t);
     }
 
     @Test
@@ -49,7 +49,7 @@ class Task1Test {
         int var2 = 4;
         int[] arrRes = new int[]{54, 2, 6, 234, 1, 12, 23};
         boolean t = Task1.swap(var1, var2, arr);
-        Assert.assertTrue(t);
-        Assert.assertArrayEquals(arr, arrRes);
+        Assertions.assertTrue(t);
+        Assertions.assertArrayEquals(arr, arrRes);
     }
 }

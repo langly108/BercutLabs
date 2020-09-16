@@ -1,6 +1,6 @@
 package com.bercut.labs.Task5;
 
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -24,18 +24,18 @@ class Task5Test {
         list.add(t1);
         double[] res = Task5.findMinMax(list);
         System.out.println(Arrays.toString(res));
-        Assert.assertArrayEquals(new double[]{390.0, 866.0}, res, 0.1);
+        Assertions.assertArrayEquals(new double[]{390.0, 866.0}, res, 0.1);
     }
 
     @Test
     void initObjects() {
         List<Shape> objList = Task5.initObjects(10, 30, true,0);
         double[] res = Task5.findMinMax(objList);
-        Assert.assertArrayEquals(new double[]{182.2, 182.2}, res, 0.1);
+        Assertions.assertArrayEquals(new double[]{182.2, 182.2}, res, 0.1);
 
         objList = Task5.initObjects(10, 30, true,141);
         res = Task5.findMinMax(objList);
-        Assert.assertArrayEquals(new double[]{76.0, 76.0}, res, 0.1);
+        Assertions.assertArrayEquals(new double[]{76.0, 76.0}, res, 0.1);
 
     }
 }
