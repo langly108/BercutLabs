@@ -1,4 +1,4 @@
-package Tests;
+package Task1;
 
 import com.bercut.labs.Task1.Code.*;
 import org.junit.Assert;

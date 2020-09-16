@@ -3,11 +3,8 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src/com/bercut/labs/Task1/Tests" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/com/bercut/labs/Task2/Tests" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/com/bercut/labs/Task3/Tests" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/com/bercut/labs/Task4/Tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
