@@ -1,4 +1,4 @@
-package com.bercut.labs.Task2.Code;
+package com.bercut.labs.Task2;
 
 public class Task2 {
 

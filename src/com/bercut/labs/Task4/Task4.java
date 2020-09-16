@@ -1,7 +1,7 @@
-package com.bercut.labs.Task4.Code;
+package com.bercut.labs.Task4;
 
-import com.bercut.labs.Task3.Code.Spaceship;
 
+import com.bercut.labs.Task3.Spaceship;
 import java.util.Arrays;
 
 public class Task4 {

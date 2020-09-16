@@ -1,6 +1,6 @@
 package Task1;
 
-import com.bercut.labs.Task1.Code.*;
+import com.bercut.labs.Task1.*;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
