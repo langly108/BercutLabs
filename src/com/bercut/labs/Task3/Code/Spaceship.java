@@ -1,4 +1,4 @@
-package Code;
+package com.bercut.labs.Task3.Code;
 
 public class Spaceship {
     private int speed;

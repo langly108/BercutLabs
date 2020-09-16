@@ -1,4 +1,4 @@
-package Code;
+package com.bercut.labs.Task1.Code;
 
 import java.util.Arrays;
 

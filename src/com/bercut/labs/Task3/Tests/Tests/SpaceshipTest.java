@@ -1,10 +1,8 @@
 package Tests;
 
-import Code.Spaceship;
+import com.bercut.labs.Task3.Code.Spaceship;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class SpaceshipTest {
 

@@ -1,10 +1,8 @@
 package Tests;
 
-import Code.Task3;
+import com.bercut.labs.Task3.Code.Task3;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class Task3Test {
 

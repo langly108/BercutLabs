@@ -1,10 +1,8 @@
 package Tests;
 
-import Code.Task4;
+import com.bercut.labs.Task4.Code.Task4;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class TestObject {
     int field;
